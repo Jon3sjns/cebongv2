@@ -102,12 +102,12 @@ echo " "
 trap ctrl_c INT
 ctrl_c()
 {
-echo -e $red(Ctrl + C ) "ditunggu ya tool versi berikut"
+echo -e "$red(Ctrl + C ) ditunggu ya tool versi berikut"
 figlet -f digital "     BYEEEE"
 sleep 1
 exit
 }
-read -p "Silahkan Pilih ==> " cc
+read -p "Silahkan Pilih ==>" cc
 if [ $cc = 1 ] || [ $cc = 1 ]
 then
 git clone https://github.com/ICWR-TECH/p0rt5
