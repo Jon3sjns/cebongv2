@@ -164,7 +164,7 @@ cd sqlmap
 python2 sqlmap
 echo "cara menggunkannya ialah python2 sqlmap.py www.kontol.com"
 fi
-if [ $cc = 9 ]||[ $cc = 9 ]
+if [ $cc = 9 ] || [ $cc = 9 ]
 then
 pkg update -y
 pkg install python2  -y
@@ -190,11 +190,8 @@ then
 pkg install python2
 git clone https://github.com/ICWR-TECH/XuDoS
 cd XuDoS
-clear
-echo "tool ini bisa memakan banyak kuota"|lolcat
-echo "disarankaan pakai wifi"
-echo "cara menggunakan tool ini ialah"
 echo "python2 udp.py target.com 80 6500"|lolcat
+python udp.py
 fi
 if [ $cc = 12 ] || [ $cc = 12 ]
 then
