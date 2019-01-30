@@ -190,6 +190,7 @@ then
 pkg install python2
 git clone https://github.com/ICWR-TECH/XuDoS
 cd XuDoS
+clear
 echo "tool ini bisa memakan banyak kuota"|lolcat
 echo "disarankaan pakai wifi"
 echo "cara menggunakan tool ini ialah"
