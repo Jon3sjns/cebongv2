@@ -102,7 +102,7 @@ echo " "
 trap ctrl_c INT
 ctrl_c()
 {
-echo "-e $red(Ctrl + C ) ditunggu ya tool versi berikut"
+echo -e "$red(Ctrl + C ) ditunggu ya tool versi berikut"
 figlet "selamatjalan"
 sleep 1
 exit
