@@ -1,5 +1,6 @@
 #hayo mau ngapain
 #mau recode ya,wkwk
+
 clear
 # Variables
 b='\033[1m'
